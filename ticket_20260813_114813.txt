@@ -1,0 +1,72 @@
+
+╔══════════════════════════════════════════════════════════════════════╗
+║                         📊 RÉSULTAT DE L'ANALYSE                     ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║  ┌─ IDENTIFICATION ────────────────────────────────────────────────  ║
+║  │                                                                   ║
+║  │  🆔 Ticket ID     : T-5a154f11                                 ║
+║  │  ⏱️ Temps d'analyse : 2 ms                                       ║
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+║  ┌─ CLASSIFICATION ────────────────────────────────────────────────  ║
+║  │                                                                   ║
+║  │  📶 Catégorie     : WIFI                  ║
+║  │  🟠 Priorité      : HAUTE                 ║
+║  │  👥 Équipe        : infrastructure        ║
+║  │  📊 Confiance     : 65%                      ║
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+║  ┌─ INFORMATIONS EXTRAITES ────────────────────────────────────────  ║
+║  │                                                                   ║
+║  │  👤 Utilisateur   : Non précisé           ║
+║  │  💻 Équipement    : Non précisé           ║
+║  │  🔍 Symptômes     : wifi                  ║
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+║  ┌─ INFORMATIONS MANQUANTES ───────────────────────────────────────  ║
+║  │                                                                   ║
+   ⚠️ Nom d'utilisateur
+   ⚠️ Équipement concerné
+   ⚠️ Impact sur l'activité
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+║  ┌─ SOLUTIONS PROPOSÉES ───────────────────────────────────────────  ║
+║  │                                                                   ║
+   🔧 Procédure de dépannage WiFi :
+1. Vérifier que le mode Avion est désactivé
+2. Oublier le réseau et se reconnecter
+3. Redémarrer le routeur
+4. Contacter l'équipe infrastructure si le problème persiste
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+║  ┌─ DÉCISION ──────────────────────────────────────────────────────  ║
+║  │                                                                   ║
+║  │  ❓ Action         : DEMANDER_INFO         ║
+║  │  💬 Raisonnement  : Informations manquantes: Nom d'utilisateur, Équipement concerné, Impact sur l'activité║
+║  │  👤 Val. humaine  : 🔴 REQUISE             ║
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+║  ┌─ SOURCES ────────────────────────────────────────────────────────  ║
+║  │                                                                   ║
+║  │  📖 wifi                                                               ║
+║  │                                                                   ║
+║  └──────────────────────────────────────────────────────────────────  ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+==================================================================
+📋 TRACE D'EXÉCUTION
+==================================================================
+🔒 SECURITY: {'is_malicious': False, 'reason': 'Ticket sécurisé'}
+📌 CLASSIFICATION: {'category': 'wifi', 'priority': 'haute', 'team': 'infrastructure', 'confidence': 0.65, 'icon': '📶'}
+📝 EXTRACTION: {'user': None, 'equipment': None, 'symptoms': ['wifi'], 'missing': ["Nom d'utilisateur", 'Équipement concerné', "Impact sur l'activité"]}
+📚 RAG: 1 documents trouvés - ['wifi']
+🤖 AGENT: {'action': 'demander_info', 'reasoning': "Informations manquantes: Nom d'utilisateur, Équipement concerné, Impact sur l'activité"}

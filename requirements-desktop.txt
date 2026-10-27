@@ -1,0 +1,5 @@
+# Pas besoin de FastAPI ni uvicorn pour l'application desktop
+# tkinter est inclus avec Python
+# Si vous voulez utiliser Ollama plus tard :
+# ollama==0.1.6
+# httpx==0.25.2
